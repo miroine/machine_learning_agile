@@ -1,0 +1,33 @@
+name: geocomp-ml
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.7
+- matplotlib
+- scipy
+- numpy>=1.16
+- jupyter
+- ipykernel
+- ipywidgets
+- ipyparallel
+- scikit-learn
+- umap-learn
+- pandas
+- seaborn
+- pint
+- cartopy
+- xarray
+- requests
+- pydot
+- tqdm
+- pillow
+- pip
+- pip:
+  - keras
+  - tensorflow==2.0.0
+  - torch
+  - torchvision
+  - bruges
+  - welly
+  - segyio

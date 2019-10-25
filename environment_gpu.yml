@@ -1,0 +1,32 @@
+name: geocomp-ml-gpu
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.6
+- matplotlib
+- scipy
+- numpy>=1.16
+- jupyter
+- ipykernel
+- ipywidgets
+- ipyparallel
+- scikit-learn
+- pandas
+- seaborn
+- pint
+- cartopy
+- xarray
+- requests
+- pydot
+- tqdm
+- pillow
+- pip
+- cudatoolkit>=10
+- cudnn>=7
+- pip:
+  - keras
+  - tensorflow-gpu==2.0.0-rc0
+  - bruges
+  - welly
+  - segyio
